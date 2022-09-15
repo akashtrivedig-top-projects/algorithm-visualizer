@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+  <title>Algorithm Visualizer</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="option-container website-name">
+        <a href="/" class="link">Algorithm Visualizer</a>
+      </div>
+      <div class="option-container">
+        <select name="" id="" class="selection">
+          <option value="bubble sort" class="option">bubble sort</option>
+          <option value="bubble sort" class="option">selection sort</option>
+          <option value="bubble sort" class="option">insertion sort</option>
+        </select>
+      </div>
+      <div class="option-container"><button id="run">Run</button></div>
+    </nav>
+  </header>
+  <section>
+    <div class="grid-container" id="grid"></div>
+  </section>
+  <section class="sorting-container">
+    <div id="bars-container" class="bars-container">
+      <div id="bars" class="bars"></div>
+    </div>
+
+    <div class="array-container">
+      <div class="bracket">[</div>
+      <div id="numbers-container">
+        <div id="numbers" class="numbers"></div>
+      </div>
+      <div class="bracket">]</div>
+    </div>
+    <div class="comparision-counter">
+      <div>Array Length:</div>
+      <div id="array-length" class="array-length"></div>
+      <div>Number of Comparisions:</div>
+      <div id="counter">0</div>
+    </div>
+  </section>
+</body>
+
+</html>
